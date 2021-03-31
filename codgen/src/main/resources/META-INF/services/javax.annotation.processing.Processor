@@ -1,1 +1,2 @@
-com.emamagic.codgen.Processor
+com.emamagic.codgen.BuilderProcessor
+com.emamagic.codgen.BindingProcessor
