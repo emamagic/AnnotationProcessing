@@ -14,13 +14,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Person person = new Person.Builder()
-                            .setName("ali")
-                            .setFamily("rezaii")
-                            .setAge(12)
-                            .build();
 
-        Log.e(TAG, "onCreate: "+ person.toString());
+        PersonBuilder.having()
+                .name("ali")
+                .family("hasan")
+                .age(2)
+                .get();
 
     }
 }
