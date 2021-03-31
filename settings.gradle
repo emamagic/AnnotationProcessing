@@ -1,0 +1,4 @@
+include ':annotation'
+include ':codgen'
+include ':app'
+rootProject.name = "BuilderAnnotation"
